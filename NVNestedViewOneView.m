@@ -11,30 +11,17 @@
 
 @implementation NVNestedViewOneView
 
-@synthesize delegate;
 @synthesize button;
-
-- (id)initWithFrame:(NSRect)frame {
-	NSLog(@"initWithFrame");
-	
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code here.
-		
-		[NSBundle loadNibNamed:@"NestedViewOne" owner:self];
-    }
-    return self;
-}
-
+/*
 - (void)drawRect:(NSRect)dirtyRect {
     NSLog(@"drawRect");
 	
 	
 }
-
+*/
 - (IBAction) buttonPressed:(NSButton*)sender
 {
-	[delegate buttonGotPushed];
+	//[delegate buttonGotPushed];
 }
 
 @end
