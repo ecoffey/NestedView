@@ -11,10 +11,7 @@
 
 @interface NestedViewAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-	NVNestedViewOneView *nestedViewOneView;
 }
-
 @property (assign) IBOutlet NSWindow *window;
-@property (assign) IBOutlet NVNestedViewOneView *nestedViewOneView;
 
 @end

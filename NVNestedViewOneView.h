@@ -9,12 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface NVNestedViewOneView : NSView {
-	id delegate;
+@interface NVNestedViewOneView : NSViewController {
 	NSButton* button;
 }
 
-@property (retain) IBOutlet id delegate;
 @property (assign) IBOutlet NSButton* button;
 
 - (IBAction) buttonPressed:(NSButton*)sender;

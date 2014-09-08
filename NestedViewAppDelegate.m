@@ -7,18 +7,17 @@
 //
 
 #import "NestedViewAppDelegate.h"
-#import "NVNestedViewOneController.h"
-#import "NVNestedViewOneView.h"
+#import "NVMainViewController.h"
 
 @implementation NestedViewAppDelegate
 
 @synthesize window;
-@synthesize nestedViewOneView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
 	NSLog(@"applicationDidFinishLaunching");
-	
+	NVMainViewController* mainVC = [[NVMainViewController alloc] initWithNibName:@"NVMainViewController" bundle:nil];
+	window.contentView = mainVC.view;
 	[window display];
 }
 

@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* NestedViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* NestedViewAppDelegate.m */; };
+		347A306712CCF682008FA06D /* NVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347A306612CCF682008FA06D /* NVMainViewController.m */; };
+		347A306912CCF6E1008FA06D /* NVMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347A306812CCF6E1008FA06D /* NVMainViewController.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A0AD265C12CAE9D3004CF00C /* NestedViewOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AD265B12CAE9D3004CF00C /* NestedViewOne.xib */; };
-		A0AD266212CAEB52004CF00C /* NVNestedViewOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD266112CAEB52004CF00C /* NVNestedViewOneController.m */; };
 		A0AD266512CAEC8C004CF00C /* NVNestedViewOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD266412CAEC8C004CF00C /* NVNestedViewOneView.m */; };
 /* End PBXBuildFile section */
 
@@ -28,11 +29,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		347A306512CCF682008FA06D /* NVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVMainViewController.h; sourceTree = "<group>"; };
+		347A306612CCF682008FA06D /* NVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVMainViewController.m; sourceTree = "<group>"; };
+		347A306812CCF6E1008FA06D /* NVMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NVMainViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* NestedView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NestedView-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* NestedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AD265B12CAE9D3004CF00C /* NestedViewOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedViewOne.xib; sourceTree = "<group>"; };
-		A0AD266012CAEB52004CF00C /* NVNestedViewOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNestedViewOneController.h; sourceTree = "<group>"; };
-		A0AD266112CAEB52004CF00C /* NVNestedViewOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNestedViewOneController.m; sourceTree = "<group>"; };
 		A0AD266312CAEC8C004CF00C /* NVNestedViewOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNestedViewOneView.h; sourceTree = "<group>"; };
 		A0AD266412CAEC8C004CF00C /* NVNestedViewOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNestedViewOneView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,10 +56,10 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* NestedViewAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* NestedViewAppDelegate.m */,
-				A0AD266012CAEB52004CF00C /* NVNestedViewOneController.h */,
-				A0AD266112CAEB52004CF00C /* NVNestedViewOneController.m */,
 				A0AD266312CAEC8C004CF00C /* NVNestedViewOneView.h */,
 				A0AD266412CAEC8C004CF00C /* NVNestedViewOneView.m */,
+				347A306512CCF682008FA06D /* NVMainViewController.h */,
+				347A306612CCF682008FA06D /* NVMainViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				A0AD265B12CAE9D3004CF00C /* NestedViewOne.xib */,
+				347A306812CCF6E1008FA06D /* NVMainViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A0AD265C12CAE9D3004CF00C /* NestedViewOne.xib in Resources */,
+				347A306912CCF6E1008FA06D /* NVMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +198,8 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* NestedViewAppDelegate.m in Sources */,
-				A0AD266212CAEB52004CF00C /* NVNestedViewOneController.m in Sources */,
 				A0AD266512CAEC8C004CF00C /* NVNestedViewOneView.m in Sources */,
+				347A306712CCF682008FA06D /* NVMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
